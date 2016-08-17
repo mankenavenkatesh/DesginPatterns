@@ -14,5 +14,11 @@ public class Test {
 		while(iterator.hasNext()){
 			System.out.println(iterator.next());
 		}
+		
+		System.out.println("Using Enhanced for loop");
+		
+		for(Employee e:list){
+			System.out.println(e);
+		}
 	}
 }
